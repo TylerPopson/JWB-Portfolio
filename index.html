@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jordan Burger | Audio Engineer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LISTEN</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LISTEN</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="w3-display-container w3-center" >
+    <img src="./images/About_1_1080.jpg" style="width:100%; height: 1080px; object-fit: cover;">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32" style="background-color: rgba(0, 0, 0, .5); width: 50%; height: 50%;">
+        <div class="w3-display-middle w3-container">
+            <h3>Jordan Burger</h3>
+            <p><b>Audio Engineer</b></p> 
+        </div>  
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">About</h2>
+    <p class="w3-justify">Jordan Burger is an audio engineer from Greenville, IN who loves spending every day making, recording, and mixing music of all kinds with all kinds of people. Based out of Bloomington, IN, Jordan is happy to be recording musicians from all over the world!
+      Jordan's life has always been surrounded by music, with a background of playing cello and upright bass for orchestras and choral singing. Jordan was also entrenched in the musical theatre scene, which eventually led him to the theatrical audio scene, and he began mixing and designing for live theatre. 
+      The thrill of mixing live music led to the studio world, where Jordan fell in love with the recording arts. At the Indiana University Jacobs School of Music, Jordan earned his B.S. in Audio Engineering and Sound Production, where he recorded and reinforced music across all genres and time periods from symphony orchestras to punk bands. 
+      Jordan loves all kinds of music, but is especially fond of prog, rock, showtunes, and anything with a jazz influence. More than anything though, Jordan loves meeting new people and bringing their music to life to share with the world.
+      Recently, Jordan has made a name for himself recording and mixing A Cappella music with recent releases by Hooshir A Cappella and Resting Pitch Face, which is music he is especially fond of from his time as a choir singer and as a member of the Grammy nominated Singing Hoosiers.
+      Jordan can’t wait to meet you and help you record your next big project!</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="./images/banner_1080.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%;">
+      </div>
+      <div class="w3-third">
+        <img src="./images/About_0_1080.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%;">
+      </div>
+      <div class="w3-third">
+        <img src="./images/About_1_1080.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Listen</h2>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <iframe class="w3-padding-24" style="border-radius:12px" src="https://open.spotify.com/embed/track/6ZqHN0cDN9GOdKGGmPY5jk?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5PJspByunI4lcrEwcOcvv4?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Boomington, IN<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: jordanwburger@gmail.com<br>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+      <div class="w3-col m6">
+            <img src="./images/About_0_1080.jpg" class="w3-round" style="width: 70%;">
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  
+</footer>
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+    }
+</script>
+
+</body>
+</html>
